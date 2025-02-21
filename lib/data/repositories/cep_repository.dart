@@ -6,10 +6,8 @@ import '../services/viacep_service.dart';
 class CepRepository {
   final ViaCepService _viaCepService = ViaCepService();
   final String _baseUrl = 'https://parseapi.back4app.com/classes';
-  final String _appId =
-      'ztyZS9gXJy0nv9S6XMiKBZCw13xBYddyiwJ55TqJ'; // Substitua pelo seu Application ID
-  final String _restApiKey =
-      'NKD4vY619ZjlVKoyR3BWf4K51I5Vr6aXCf7QVasn'; // Substitua pela sua REST API Key
+  final String _appId = '.......'; // Substitua pelo seu Application ID
+  final String _restApiKey = '.......'; // Substitua pela sua REST API Key
 
   Future<List<Cep>> getAllCeps() async {
     final response = await http.get(
