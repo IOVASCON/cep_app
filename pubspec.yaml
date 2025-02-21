@@ -1,0 +1,32 @@
+name: cep_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Use a constraint, not just a minimum
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0  # Updated to a more recent version
+  provider: ^6.1.1 # Updated to a more recent version
+  cupertino_icons: ^1.0.6 # Updated to a more recent version.  Keep this, it's useful.
+  logger: ^2.0.2+1  # ADICIONE ESTA LINHA
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1 # Updated, and use a reasonable version
+
+flutter:
+  uses-material-design: true
+  # assets:  (Keep commented out unless you actually have assets)
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # fonts:   (Keep commented out unless you have custom fonts)
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
